@@ -1,11 +1,10 @@
-while True:
-    number = int(input('Введите число: '))
-    my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
-    if number > 0 == 0:
-        print("Положительное число ")
-        continue
-    elif number < -0 == 0:
-        print("Отрицательное число")
-    else:
+my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
+zero = -0
+while zero < len(my_list):
+    if  my_list[zero] > 0:
+        print(my_list[zero])
+    elif my_list[zero] < 0:
+        print(my_list[zero])
         break
-        print('Выход за границу')
+    zero += 1
+print('Выход за границу')
